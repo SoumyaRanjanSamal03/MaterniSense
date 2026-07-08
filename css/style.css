@@ -1,0 +1,52 @@
+.stApp {
+    background: linear-gradient(to right, #F48FB1, #90CAF9);
+}
+
+/* Main Title */
+h1 {
+    color: #c2185b;
+    text-align: center;
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+/* Sub Titles */
+h2, h3 {
+    color: #0d6efd;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #E91E63;
+}
+
+/* Sidebar text */
+section[data-testid="stSidebar"] * {
+    color: white !important;
+    font-weight: bold;
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: #ff4d88;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.stButton > button:hover {
+    background-color: #e6005c;
+}
+
+/* Input Boxes */
+.stNumberInput input {
+    border-radius: 8px;
+}
+
+/* Success Box */
+.stSuccess {
+    border-radius: 10px;
+}
